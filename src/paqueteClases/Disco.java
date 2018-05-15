@@ -28,7 +28,7 @@ public class Disco {
 
 	public Double calcularSuperficie() {
 		Double resultadoSuperficie;
-		resultadoSuperficie = Math.sqrt(radioInterior) * Math.PI; 
+		resultadoSuperficie = Math.PI(Math.pow(radioExterior,2) - Math.pow(radioInterior,2));
 		return resultadoSuperficie;
 	}
 
